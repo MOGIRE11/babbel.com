@@ -266,7 +266,7 @@ footer img{
     color: blueviolet;
     text-decoration: underline;
 }
-@media(min-width:300px) and (max-width:790px){
+@media(min-width:250px) and (max-width:790px){
     .nav{
         height: 10vh;
     }
