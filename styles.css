@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    color: #3f4144;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+img{
+    width: 150px;
+    object-fit: cover;
+}
+
+.nav{
+    height: 10vh;
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: floralwhite;
+}
+#offer{
+    width: 180px;
+    height: 40px;
+    font-size: large;
+    font-weight: 600;
+    border: 1px solid rgba(255,121,15,1);;
+    border-radius: 7px;
+    background-color: rgba(255,121,15,1);
+    color: white;
+}
+.hallo{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(/img/Da\ Pietro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+.hallo img{
+    width: 30%;
+}
+#pic{
+  width: 100px;
+}
+
+.learn{
+    width: 25vw;
+    font-size: 1.5rem;
+    color: white;
+   
+}
+.lang-card{
+    background-color:purple;
+    color: white;
+    opacity: .9;
+    background-blend-mode: lighten;
+    width: 35vw;
+   max-width:  35vw; ;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    text-align: center;
+}
+.lang-card h3{
+    margin-bottom: 10%;
+}
+#mc{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    margin-bottom: 10%;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 400;
+    opacity: 1;
+}
+.minicards{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.approach{
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    font-size: larger;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+#approach{
+    color: red;
+    width: 70%;
+}
+#tp{
+    color: black;
+    font-weight:500;
+    width: 80%;
+}
+.time{
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    font-size:larger;
+    display: flex;
+    justify-content: center;
+}
+.first,.second,.third,.fourth{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+background-color: whitesmoke;
+border-bottom: 2px solid white;
+}
+.first h2,.second h2,.third h2,.fourth h2{
+    color: orangered;
+}
+.first p,.second p,.third p,.fourth p{
+    font-size: large;
+    word-wrap: normal;
+}
+.first,.third{
+    background-color:floralwhite;
+}
+.fleft,.sleft,.tleft,.foleft{
+    width: 46%;
+}
+.fright,.sright,.tright,.foright{
+    width: 35%;  
+}
+.fourth{
+    border-bottom: 1px solid burlywood;
+}
+#ladylaptop,#ladyphone,#manphone,#twophone{
+   width: 70%;
+}
+.btn{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    width: max-content;
+    height: 50px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    font-weight: bold;
+    box-shadow:1px 1px 20px 0px  burlywood;
+}
+#btn:hover{
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    box-shadow:1px 1px 17px 0px  burlywood;
+    color: black;
+}
+.what{
+    width: 100%;
+    height: 60vh;
+    border-bottom: 1px solid burlywood;
+}
+.what h1{
+    margin-bottom: 2%;
+    text-align: center;
+}
+.ops{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.easycard,.useful-card{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.easycard{
+    border-top:1px solid  orange;
+    border-left:1px solid blueviolet ;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.useful-card{
+    border-right:1px solid  orange;
+    border-bottom:1px solid blueviolet ;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+#nina,#ralf{
+    width: 90px;
+    object-fit: cover;
+}
+.picklanguage{
+    width: 100%;
+    height: 65vh;
+    max-height: 65vh;
+    text-align: center;
+    background-color:bisque;
+    padding: 2%;
+    overflow: hidden;
+}
+.topflags,.bottomflags{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.picklanguage img{
+    width: 100px;
+    max-width: 100px;
+   
+}
+.picklanguage img:hover{
+    box-shadow: 1px 1px 17px 0px  burlywood;
+    border-radius: 5%;
+}
+caption{
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:floralwhite;
+}
+footer img{
+    width: 100px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+@media(min-width:400px) and (max-width:790px){
+    .nav{
+        height: 10vh;
+    }
+    .lang-card{
+        display: none;
+    }
+    .hallo{
+        height: 62vh;
+       width: 100%;
+    }
+    .learn{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+    }
+    .approach{
+        width: 100%;
+        height: auto;
+    }
+    #approach{
+        width: 100%;
+        height: auto;
+        font-size: larger;
+        margin-bottom: 5px;
+    }
+    .time{
+        margin-bottom: 15px;
+    }
+    #tp{
+        width: 100%;
+        padding: 2%;  
+    }
+    .first,.second,.third,.fourth{
+        height: 38vh;
+    }
+    .fright,.sright,.tright,.foright{
+        width: 45%;
+    }
+    #ladyphone,#ladylaptop,#manphone,#twophone{
+        width: 100%;
+    }
+    #btn{
+        font-size: large;
+        border-radius: 10px;
+    }
+    .what{
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        border-bottom: none;
+    }
+    .what h1{
+        font-size: 1.7rem;
+    }
+    .ops{
+        width: 100%;
+   height: auto;
+    }
+    .easycard,.useful-card{
+        width:49%;
+        height: 55vh;
+        padding: 1%;
+        border: 1px  solid orange;
+    }
+    .picklanguage{
+        width: 100%;
+        height: 45vh;
+        max-height: 50vh;
+        padding-top: 2%;
+    }
+    .picklanguage h1{
+        font-size: 1.7rem;
+    }
+    .picklanguage img{
+        width: 69px;
+       max-width: 80px; 
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        padding: 2%;
+        flex-direction: column;
+    }
+    .footer img{
+       width: 20%;
+    }
+    .footer a{
+        color:orangered;
+    }
+}
+/* I finally finished all this in half a day */

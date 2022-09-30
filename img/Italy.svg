@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Templates" viewBox="0 0 100 100">
+  <defs>
+    <style>.cls-1{fill:#27b45a;}.cls-2{fill:#ff4d4d;}.cls-3{fill:#fff;}.cls-4{fill:#ececf3;}</style>
+  </defs>
+  <title>Babbel_GraphicsMaster_2017</title>
+  <path class="cls-1" d="M10.73,50a39.28,39.28,0,0,0,23.7,36.06V13.94A39.28,39.28,0,0,0,10.73,50Z"/>
+  <path class="cls-2" d="M65.4,13.86V86.14a39.29,39.29,0,0,0,0-72.28Z"/>
+  <path class="cls-3" d="M50,10.73a39.2,39.2,0,0,0-15.57,3.21V86.06a39.41,39.41,0,0,0,31,.08V13.86A39.27,39.27,0,0,0,50,10.73Z"/>
+  <path class="cls-4" d="M50,90.77A40.77,40.77,0,1,1,90.77,50,40.82,40.82,0,0,1,50,90.77Zm0-78.54A37.77,37.77,0,1,0,87.77,50,37.81,37.81,0,0,0,50,12.23Z"/>
+</svg>
