@@ -56,7 +56,7 @@ img{
 
 .learn{
     width: 25vw;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: white;
    
 }
@@ -114,15 +114,18 @@ img{
 #tp{
     color: black;
     font-weight:500;
-    width: 80%;
+    width: 60%;
 }
 .time{
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     text-align: center;
     font-size:larger;
     display: flex;
     justify-content: center;
+}
+#mob{
+    display: none;
 }
 .first,.second,.third,.fourth{
     width: 100%;
@@ -148,6 +151,9 @@ border-bottom: 2px solid white;
 }
 .fright,.sright,.tright,.foright{
     width: 35%;  
+}
+#fp,#sp,#rp,#np{
+    display: none;
 }
 .fourth{
     border-bottom: 1px solid burlywood;
@@ -268,14 +274,23 @@ footer img{
 }
 @media(min-width:250px) and (max-width:790px){
     .nav{
-        height: 10vh;
+        width: 100%;
+        height: 7vh;
+       justify-content: center;
+        padding-left: 0;
+    padding-right: 0;
     }
+    #offer{
+        display: none;
+    }
+    
     .lang-card{
         display: none;
     }
     .hallo{
-        height: 62vh;
-       width: 100%;
+        height: 60vh;
+       width:100%;
+       max-width: 100%;
     }
     .learn{
         width: 100%;
@@ -287,23 +302,43 @@ footer img{
     }
     .approach{
         width: 100%;
-        height: auto;
+        height: 10vh;
+        align-items: center;
     }
     #approach{
-        width: 100%;
-        height: auto;
-        font-size: larger;
-        margin-bottom: 5px;
+        width: 94%;
+        font-size: large;
+       
     }
     .time{
-        margin-bottom: 15px;
+        height: 8vh;
+       width: 100%;
     }
     #tp{
+        display: none; 
+    }
+    #mob{
         width: 100%;
-        padding: 2%;  
+        display:flex;
+        align-items: center;
+       padding-left: 3%;
+       color: black;
     }
     .first,.second,.third,.fourth{
-        height: 38vh;
+        height: 30vh;
+    }
+    .first p,.second p,.third p,.fourth p{
+        display: none;
+    }
+    .second ul{
+        display: none;
+    }
+    .first h2,.second h2,.third h2,.fourth h2{
+       font-size: 1.1rem;
+    }
+    #fp,#sp,#rp,#np{
+        display: block;
+        font-size:.9rem;
     }
     .fright,.sright,.tright,.foright{
         width: 45%;
@@ -311,53 +346,78 @@ footer img{
     #ladyphone,#ladylaptop,#manphone,#twophone{
         width: 100%;
     }
+    .btn{
+        width: 100%;
+        height: 17vh;
+    }
     #btn{
         font-size: large;
         border-radius: 10px;
+        box-shadow: none;
     }
     .what{
         width: 100%;
-        height: auto;
-        margin-bottom: 15px;
+        height:91vh;
         border-bottom: none;
     }
     .what h1{
-        font-size: 1.7rem;
+        font-size: 1.25rem;
     }
     .ops{
         width: 100%;
-   height: auto;
+       flex-direction: column;
+        height: auto;
     }
     .easycard,.useful-card{
-        width:49%;
-        height: 55vh;
-        padding: 1%;
+        width:98%;
+        height: 42vh;
+        padding: 2%;
         border: 1px  solid orange;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    #ralf,#nina{
+        width: 50px;
     }
     .picklanguage{
         width: 100%;
-        height: 45vh;
-        max-height: 50vh;
+        height: 60vh;
+        display: flex;
+        flex-direction:column;
+        justify-content:space-evenly;
         padding-top: 2%;
     }
+    .choose{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .topflags,.bottomflags{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+        height: 50vh;
+        border: 1px solid green;
+    }
     .picklanguage h1{
-        font-size: 1.7rem;
+        font-size: 1.35rem;
     }
     .picklanguage img{
-        width: 69px;
-       max-width: 80px; 
+        width: 40px;
     }
     .footer{
         width: 100%;
-        height: auto;
+        height: 30vh;
         padding: 2%;
         flex-direction: column;
     }
     .footer img{
-       width: 20%;
+       width: 100px;
     }
     .footer a{
         color:orangered;
     }
 }
-/* I finally finished all this in half a day */
+
