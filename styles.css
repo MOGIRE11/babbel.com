@@ -273,10 +273,7 @@ footer img{
     text-decoration: underline;
 }
 @media(min-width:250px) and (max-width:790px){
-   body
-   {
-    background-color: blue;
-   }
+   
    
     .nav{
         width: 100%;
