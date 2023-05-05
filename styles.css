@@ -24,7 +24,7 @@ img{
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: floralwhite;
+    background-color: whitesmoke;
 }
 #offer{
     width: 180px;
@@ -121,7 +121,7 @@ img{
     width: 100%;
     height: 12vh;
     text-align: center;
-    font-size:larger;
+    font-size:large;
     display: flex;
     justify-content: center;
 }
@@ -141,11 +141,17 @@ border-bottom: 2px solid white;
     color: orangered;
 }
 .first p,.second p,.third p,.fourth p{
-    font-size: large;
+    font-size: medium;
     word-wrap: normal;
 }
 .first,.third{
     background-color:floralwhite;
+}
+
+.second,.fourth
+{
+    display: flex;
+    flex-direction: row-reverse;
 }
 .fleft,.sleft,.tleft,.foleft{
     width: 46%;
